@@ -1,6 +1,6 @@
 {
-  "name": "v-gate",
-  "version": "0.0.3",
+  "name": "vue-auth-gate",
+  "version": "0.0.1",
   "description": "vue权限验证",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/any86/v-gate.git"
+    "url": "git+https://github.com/any86/vue-auth-gate.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/any86/v-gate/issues"
+    "url": "https://github.com/any86/vue-auth-gate/issues"
   },
-  "homepage": "https://github.com/any86/v-gate#readme",
+  "homepage": "https://github.com/any86/vue-auth-gate#readme",
   "dependencies": {
     "axios": "^0.27.2",
     "nprogress": "^0.2.0",

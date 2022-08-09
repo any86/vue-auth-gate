@@ -5,9 +5,9 @@ import pkg from './package.json';
 // 代码头
 const banner =
     `/*!
- * v-gate.js v${pkg.version}
+ * vue-auth-gate.js v${pkg.version}
  * (c) 2022-${new Date().getFullYear()} Russell
- * https://github.com/any86/v-gate
+ * https://github.com/any86/vue-auth-gate
  * Released under the MIT License.
  */`
 
