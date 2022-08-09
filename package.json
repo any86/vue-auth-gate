@@ -1,0 +1,34 @@
+{
+  "name": "v-auth",
+  "version": "1.0.0",
+  "description": "[npm-image]: https://img.shields.io/npm/v/any-event.svg\r [npm-url]: https://npmjs.org/package/any-event\r [downloads-url]: https://npmjs.org/package/any-event\r [size-image]: https://img.shields.io/bundlephobia/minzip/any-event.svg\r [size-url]: https://bundlephobia.com/result?p=any-event\r [codecov-image]: https://codecov.io/gh/any86/any-event/branch/master/graph/badge.svg \r [codecov-url]: https://codecov.io/gh/any86/any-event\r [ci-image]: https://circleci.com/gh/any86/any-event.svg?style=svg\r [ci-url]: https://circleci.com/gh/any86/any-event",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "dev": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/any86/v-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/any86/v-auth/issues"
+  },
+  "homepage": "https://github.com/any86/v-auth#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "nprogress": "^0.2.0",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.4",
+    "@types/nprogress": "^0.2.0",
+    "rollup": "^2.77.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  }
+}

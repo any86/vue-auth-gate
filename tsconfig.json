@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "target": "ES6",
+        // "module": "umd",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": false,
+        "sourceMap": true,
+        "downlevelIteration": true,
+
+        // 告诉编辑器你需要的语法提示的版本
+        "lib": [
+            "es2016","dom"
+        ],
+        // "noEmitHelpers": true
+    },
+    "include": [
+        "src/index.ts"
+    ]
+}
