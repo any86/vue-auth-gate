@@ -1,23 +1,24 @@
 {
-  "name": "v-auth",
-  "version": "1.0.0",
-  "description": "[npm-image]: https://img.shields.io/npm/v/any-event.svg\r [npm-url]: https://npmjs.org/package/any-event\r [downloads-url]: https://npmjs.org/package/any-event\r [size-image]: https://img.shields.io/bundlephobia/minzip/any-event.svg\r [size-url]: https://bundlephobia.com/result?p=any-event\r [codecov-image]: https://codecov.io/gh/any86/any-event/branch/master/graph/badge.svg \r [codecov-url]: https://codecov.io/gh/any86/any-event\r [ci-image]: https://circleci.com/gh/any86/any-event.svg?style=svg\r [ci-url]: https://circleci.com/gh/any86/any-event",
+  "name": "v-gate",
+  "version": "0.0.1",
+  "description": "vue权限验证",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
+  "files": ["dist"],
   "scripts": {
     "dev": "rollup -c"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/any86/v-auth.git"
+    "url": "git+https://github.com/any86/v-gate.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/any86/v-auth/issues"
+    "url": "https://github.com/any86/v-gate/issues"
   },
-  "homepage": "https://github.com/any86/v-auth#readme",
+  "homepage": "https://github.com/any86/v-gate#readme",
   "dependencies": {
     "axios": "^0.27.2",
     "nprogress": "^0.2.0",

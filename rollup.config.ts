@@ -5,15 +5,15 @@ import pkg from './package.json';
 // 代码头
 const banner =
     `/*!
- * v-auth.js v${pkg.version}
+ * v-gate.js v${pkg.version}
  * (c) 2022-${new Date().getFullYear()} Russell
- * https://github.com/any86/v-auth
+ * https://github.com/any86/v-gate
  * Released under the MIT License.
  */`
 
 export default defineConfig({
     input: './src/index.ts',
-    external:['vue','axios','progress','vue-router'],
+    external:['vue','axios','nprogress','nprogress/nprogress.css','vue-router'],
     plugins: [
         typescript({
             exclude: 'node_modules/**',

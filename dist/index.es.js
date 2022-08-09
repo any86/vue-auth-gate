@@ -1,7 +1,7 @@
 /*!
- * AnyEvent.js v1.0.0
+ * v-gate.js v0.0.1
  * (c) 2022-2022 Russell
- * https://github.com/any86/v-auth
+ * https://github.com/any86/v-gate
  * Released under the MIT License.
  */
 import progress from 'nprogress';
