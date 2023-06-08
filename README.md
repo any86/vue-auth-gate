@@ -24,6 +24,7 @@ const app = createApp(App);
 
 // 🌱 验证开始
 const permissionRoutes = [];
+console.log(http);
 authGate({
     router,
     axios:http,
